@@ -67,9 +67,15 @@ a {
   background-color: #fff;
   width: 200px;
   height: 100vh;
-  z-index: 1001;
+  z-index: 1000;
   transition: 0.3s;
   border: 1px solid #eee;
+}
+@media (max-width:767px) {
+  .settings-box{
+    z-index: 1001;
+    position: fixed;
+  }
 }
 .settings-box.open {
   left: 0;
