@@ -67,7 +67,7 @@ a {
   background-color: #fff;
   width: 200px;
   height: 100vh;
-  z-index: 1000;
+  z-index: 1001;
   transition: 0.3s;
   border: 1px solid #eee;
 }
@@ -674,7 +674,6 @@ a {
   font-weight: bold;
   color: #fff;
   margin: 0 0 40px;
-  
 }
 
 .testimonials .container {
@@ -691,7 +690,7 @@ a {
   padding: 20px;
   transition: 0.3s;
 }
-.testimonials .box:hover{
+.testimonials .box:hover {
   background-color: rgb(218 218 218 /0.7);
 }
 
